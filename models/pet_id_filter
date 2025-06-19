@@ -1,0 +1,2 @@
+select * from prod.dev.PET_INFO
+where pet_id=7000

@@ -1,0 +1,10 @@
+seeds:
+  - name: s2
+    description: "Pipe-delimited seed file"
+    config:
+      delimiter: "|"
+    columns:
+      - name: id
+        description: "Identifier"
+      - name: name
+        description: "Name"

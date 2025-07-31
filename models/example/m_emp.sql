@@ -1,0 +1,1 @@
+select * from ctepl.dbt_schema.emp

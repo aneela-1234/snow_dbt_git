@@ -1,0 +1,47 @@
+sources:
+  - name: abc
+    database: CTEPL
+    schema: HPN
+    tables:
+      - name: CUSTD
+
+  - name: bce_wearables
+    database: HILLS
+    schema: WEARABLES
+    tables:
+      - name: T_CU_DE
+
+  - name: bce_pip
+    database: PIP
+    schema: PIP_SC
+    tables:
+      - name: SAMP
+
+  - name: bce_pip_1
+    database: PIP
+    schema: PIP_SCH
+    tables:
+      - name: SAMP_1
+
+  - name: def
+    database: CTEPL
+    schema: DBT_SCHEMA
+    tables:
+      - name: EX_VAR
+  - name: cot
+    database: CTEPL
+    schema: HPN
+    tables:
+      - name: customers
+      - name: orders    
+  - name: INCR
+    database: CTEPL
+    schema: HPN
+    tables:
+      - name: CUSTOM_INCR
+
+
+
+
+
+

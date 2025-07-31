@@ -1,0 +1,26 @@
+models:
+  - name: student
+    columns:
+      - name: sid
+        tests:
+          - unique
+          - not_null
+  - name: course
+    columns:
+      - name: cid
+        tests:
+         - unique
+         - not_null
+      - name: status
+        tests:
+          - accepted_values:
+              values:
+                - JOINED
+                - ATTEND
+                - NOT JOINED
+      - name: sid
+        tests:
+          - relationships:
+              to: ref('student')
+              field: sid
+

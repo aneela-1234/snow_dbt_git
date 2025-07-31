@@ -1,0 +1,1 @@
+select * from {{ ref('t_cust') }}

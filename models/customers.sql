@@ -1,5 +1,5 @@
 with custee as
 (
-select * from PROD.DEV.customers
+select * from CTEPL.HPN.customers
 )
 select * from custee

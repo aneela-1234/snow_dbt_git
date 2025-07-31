@@ -1,0 +1,9 @@
+seeds:
+  - name: s1
+    config:
+      column_types:
+        id: varchar
+  - name: trim_num
+    config:
+      column_types:
+        cust_id: varchar

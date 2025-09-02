@@ -39,6 +39,12 @@ sources:
     schema: HPN
     tables:
       - name: CUSTOM_INCR
+  - name: emp_var
+    database: CTEPL
+    schema: HPN
+    tables:
+      - name: EMP
+
 
 
 
